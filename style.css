@@ -1,0 +1,53 @@
+.gg{
+  background-color: rgb(255, 127, 127);
+  width: 50px;
+  height: 50px;
+ position: relative;
+  left: 10px;
+  top: 60px;
+}
+.qq{
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  position: relative;
+left: 40px;
+  top: 40px;
+  z-index: 1;
+}
+.zz{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 75px;
+  top: 130px;
+}
+.photo{
+  height: 200px;
+  width: 300px;
+}
+.div{
+
+  height: 50px;
+  width: 300px;
+  position: relative;
+z-index: 1;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+flex-shrink: 0;
+bottom:67px  ;
+color: #FFF;
+backdrop-filter:blur(1px) ;
+background: rgba(47, 48, 58, 0.80);
+}
+p{
+position: relative;
+top: 30%;
+}
